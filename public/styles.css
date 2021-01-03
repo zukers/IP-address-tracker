@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+}
+header {
+  background-image: url("images/pattern-bg.png");
+  background-size: cover;
+}
+h1, h3 {
+  color: white;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  right: 30%;
+}
+.input-form {
+  max-width: 500px;
+  margin: auto;
+}
+#mapid {
+  height: 600px;
+}
