@@ -9,10 +9,10 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
 
-let location = "waiting for input";
-let ipAddress = "waiting for input";
-let timezone = "waiting for input";
-let isp = "waiting for input";
+let location = "";
+let ipAddress = "";
+let timezone = "";
+let isp = "";
 let lat = 51.505;
 let lon = -0.09;
 

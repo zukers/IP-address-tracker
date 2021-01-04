@@ -4,6 +4,7 @@ body {
 header {
   background-image: url("images/pattern-bg.png");
   background-size: cover;
+  padding-bottom: 3rem;
 }
 h1, h3 {
   color: white;
@@ -18,6 +19,28 @@ footer {
   max-width: 500px;
   margin: auto;
 }
+.container-head {
+  background-color: white;
+  height: 6rem;
+  width: 30%;
+  border-radius: 15px;
+  margin: 2rem auto 2rem auto;
+  align-items: center;
+  display: flex;
+}
+.data-cell1 {
+  padding: 3rem;
+  border-left: solid;
+  border-right: solid;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.data-cell2 {
+  padding: 3rem;
+  border-right: solid;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 #mapid {
-  height: 600px;
+  height: 400px;
 }
